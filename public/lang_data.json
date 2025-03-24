@@ -1,0 +1,102 @@
+{   "lang":"fr",
+    "ar":{
+        "orientation": "rtl",
+        "navBar": {
+            "linkName": [
+                "الرئيسية",
+                "عني",
+                "المشاريع",
+                "التواصل"
+            ]
+        },
+        "accueil": {
+            "title": "اسمي الحسن",
+            "presentation": "مطور شغوف بالمعلوماتية والذكاء الإصطناعي"
+        },
+        "about": {
+            "title": "عني",
+            "presentation": "أنا مطور لدي خبرة في Python وكذلك في تطوير الويب. لغتي المفضلة في البرمجة Python، وقد اكتسبت مهارات قوية في لغات برمجة مختلفة، مما يسمح لي بالتكيف بسهولة مع مشاريع مختلفة.",
+            "skillsText": "المهارات",
+            "skillsSection1Text": "اللغات"
+        },
+        "projects": {
+            "title": "المشاريع",
+            "items": [
+                {
+                    "title": "المشاريع",
+                    "description": "مشروع جمع عددين",
+                    "link": "#"
+                },
+                {
+                    "title": "المشاريع",
+                    "description": "مشروع ضرب عددين",
+                    "link": "#"
+                },
+                {
+                    "title": "المشاريع",
+                    "description": "مشروع قسمة عددين",
+                    "link": "#"
+                }
+            ]
+        },
+        "contact": {
+            "input1Text": "الاسم",
+            "input2Text": "البريد الإلكتروني",
+            "input3Text": "الرسالة",
+            "buttonText": "إرسال",
+            "succesSendMessage": "تم الإرسال بنجاح",
+            "errorSendMessage": "حدث خطأ\nحاول مرة أخرى"
+        },
+        "langToggler": ["الفرنسية", "العربية"]
+},
+    "fr":{
+        "orientation":"ltr",
+        "navBar":{
+                "linkName":[
+                    "Accueil",
+                    "À Propos",
+                    "Projets",
+                    "Contact"
+                ]
+    },
+    "accueil":{
+        "title":"Je suis Al-Hassan",
+        "presentation":"Un développeur passionné par l'informatique et l'intelligence artificielle"
+    },
+    "about":{
+        "title":"À propos de moi",
+        "presentation": "Je suis un développeur avec une expertise en Python, ainsi qu'en développement web.Mon meilleur langage de programation c'est python, j'ai acquis des compétences solides dans divers langages de programmation, ce qui me permet de m'adapter facilement à différents projets.",
+        "skillsText":"compétences",
+        "skillsSection1Text":"Langages"
+    },
+    "projects":{
+        "title":"projets",
+        "items":[
+            {
+                "title":"Projets",
+                "description":"Projet de somme de deux nombres",
+                "link":"#"
+        },
+        {
+            "title":"Projets",
+            "description":"Projet de produit de deux nombres",
+            "link":"#"
+        },
+        {
+            "title":"Projets",
+            "description":"Projet de division de deux nombres",
+            "link":"#"
+        }
+        ]
+    },
+    "contact":{
+        "input1Text":"Nom",
+        "input2Text":"Email",
+        "input3Text":"Message",
+        "buttonText":"envoie",
+        "succesSendMessage":"Succès",
+        "errorSendMessage":"Erreur\nEssaie autre fois"
+    },
+    "langToggler":["fr","ar"]
+}
+}
