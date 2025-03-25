@@ -31,5 +31,5 @@ export default ()=>{
               const storeLang = sessionStorage.getItem("lang") || "ar";
               setLang(storeLang);
           },[])
-    // return <Page title={langData["projects"]["title"]} data={langData}/>
+    return <Page title={langData["projects"]["title"]} data={langData}/>
 }

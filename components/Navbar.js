@@ -11,7 +11,7 @@ export default (props)=>{
     return <nav className="bg-black dark:bg-gray-800 text-white font-bold flex w-full rounded-md mb-4 z-10 relative">
         <NavBarItem id="navHome" href="/accueil" index={0} lang_data={props.lang_data} />
         <NavBarItem id="navAbout" href="/about" index={1} lang_data={props.lang_data} />
-        {/* <NavBarItem id="navprojects" href="/projects" index={2} lang_data={props.lang_data} /> */}
+        <NavBarItem id="navprojects" href="/projects" index={2} lang_data={props.lang_data} />
         <NavBarItem id="navContact" href="/contact" index={3} lang_data={props.lang_data} />
     </nav>
 }
