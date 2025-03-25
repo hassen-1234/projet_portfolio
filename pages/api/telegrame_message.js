@@ -1,10 +1,10 @@
 export default async (req,res)=>{
     const {name,email,message} = req.query;
-    const TOKEN = "7402127247:AAHeaOLZzM2jA3vI1E6cbVpX9YzH0L0dhW0";
-    const CHAT_ID = "6481199804";
-    const URL = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
-    const text = `Site portfolio\n\nNom : ${name}\n\nEmail : ${email}\n\nMessage : ${message}`;
     try{
+        const TOKEN = process.env.BOT_TOKEN;
+        const CHAT_ID = process.env.BOT_CHAT_ID;
+        const URL = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
+        const text = `Site portfolio\n\nNom : ${name}\n\nEmail : ${email}\n\nMessage : ${message}`;
         const response = await fetch(URL,{
             method:"POST",
             headers:{"Content-Type":"application/json"},
